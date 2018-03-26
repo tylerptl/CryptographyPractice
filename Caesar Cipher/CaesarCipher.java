@@ -73,36 +73,4 @@ public class CaesarCipher {
 
         }
     }
-
-
-
-
-
-
-
-
-
-//    Character[] charactersFound = map.keySet().toArray(new Character[0]);
-//    System.out.println("Letters\tFrequency\tCount");
-//
-//    for(int k = 0; k < charactersFound.length; k++){
-//        character = charactersFound[k];
-//        System.out.println(character +
-//        "\t" +
-//        (map.get(character/((float)count)) +
-//        "\t" +
-//        map.get(character)));
-//    }
-
-
-
-
-
-    public void displayArray(){
-        for(int n : myArr){
-            System.out.println(Character.toString((char)n) + " : " + myArr[n]);
-        }
-    }
-
-
 }
